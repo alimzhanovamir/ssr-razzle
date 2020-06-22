@@ -8,6 +8,7 @@ export const Contacts = () => {
         <h2>Contacts</h2>
       </div>
       <Link to='/'>Home</Link>
+      <img src="https://images.unsplash.com/photo-1503803548695-c2a7b4a5b875?ixlib=rb-1.2.1&w=1000&q=80" alt=""/>
     </div>
   );
 }

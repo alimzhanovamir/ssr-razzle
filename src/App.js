@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import { Home, Contacts } from './pages';
+import { Home, Contacts } from '@pages';
 
 const App = () => (
   <Switch>

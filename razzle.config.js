@@ -2,7 +2,7 @@ const razzleHeroku = require('razzle-heroku');
 const path = require('path');
 
 module.exports = {
-  modify(config, { target, dev }, webpack) {
+  modify: (config, { target, dev }, webpack) => {
     const appConfig = razzleHeroku(config, { target, dev }, webpack);
 
     appConfig.resolve = {
